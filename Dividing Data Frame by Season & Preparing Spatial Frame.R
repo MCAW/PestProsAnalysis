@@ -17,63 +17,63 @@ Heartland2004 <- RBaseData %>% #Filtering then arranging
   filter(Season == 2004, Grower == "Heartland Farms") %>%
   arrange(desc(Season))
 Heartland2004
-season_04 <- RBaseData %>% #creating dataframe for each season
+season_04 <- RBaseData.v2 %>% #creating dataframe for each season
   filter(Season == 2004) %>%
   arrange(desc(Season))
 
-season_05 <- RBaseData %>%
+season_05 <- RBaseData.v2 %>%
   filter(Season == 2005) %>%
   arrange(desc(Season))
 
-season_06 <- RBaseData %>%
+season_06 <- RBaseData.v2 %>%
   filter(Season == 2006) %>%
   arrange(desc(Season))
 
-season_07 <- RBaseData %>%
+season_07 <- RBaseData.v2 %>%
   filter(Season == 2007) %>%
   arrange(desc(Season))
 
-season_08 <- RBaseData %>%
+season_08 <- RBaseData.v2 %>%
   filter(Season == 2008) %>%
   arrange(desc(Season))
 
-season_09 <- RBaseData %>%
+season_09 <- RBaseData.v2 %>%
   filter(Season == 2009) %>%
   arrange(desc(Season))
 
-season_10 <- RBaseData %>%
+season_10 <- RBaseData.v2 %>%
   filter(Season == 2010) %>%
   arrange(desc(Season))
 
-season_11 <- RBaseData %>%
+season_11 <- RBaseData.v2 %>%
   filter(Season == 2011) %>%
   arrange(desc(Season))
 
-season_12 <- RBaseData %>%
+season_12 <- RBaseData.v2 %>%
   filter(Season == 2012) %>%
   arrange(desc(Season))
 
-season_13 <- RBaseData %>%
+season_13 <- RBaseData.v2 %>%
   filter(Season == 2013) %>%
   arrange(desc(Season))
 
-season_14 <- RBaseData %>%
+season_14 <- RBaseData.v2 %>%
   filter(Season == 2014) %>%
   arrange(desc(Season))
 
-season_15 <- RBaseData %>%
+season_15 <- RBaseData.v2 %>%
   filter(Season == 2015) %>%
   arrange(desc(Season))
 
-season_16 <- RBaseData %>%
+season_16 <- RBaseData.v2 %>%
   filter(Season == 2016) %>%
   arrange(desc(Season))
 
-season_17 <- RBaseData %>%
+season_17 <- RBaseData.v2 %>%
   filter(Season == 2017) %>%
   arrange(desc(Season))
 
-season_18 <- RBaseData %>%
+season_18 <- RBaseData.v2 %>%
   filter(Season == 2018) %>%
   arrange(desc(Season))
 
